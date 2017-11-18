@@ -1,4 +1,4 @@
-## StackNotifier
+# StackNotifier
 
 StackNotifier is Tampermonkey/Greasemonkey (or compatible) user script that aims to improve your experience with StackOverflow.com.
 
@@ -8,7 +8,7 @@ Once it runs, you will get live notifications about newest questions.
 
 ## How to use StackNotifier?
 1. Install [Tampermonkey](https://chrome.google.com/webstore/search/tampermonkey?hl=en&_category=extensions "Tampermonkey")/[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ "Greasemonkey") extension.
-2. Install StackNotifier.
+2. [Install StackNotifier](https://raw.githubusercontent.com/reski78/StackNotifier/master/stacknotifier.js "Install StackNotifier").
 3. Make sure you are logged in StackOverflow. (!)
 4. Go to page with newest questions, for example [JavaScript](https://stackoverflow.com/questions/tagged/javascript?sort=newest "JavaScript").
 
