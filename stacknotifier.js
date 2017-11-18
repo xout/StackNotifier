@@ -15,7 +15,7 @@
     //time period in miliseconds after which notification will disappear
     DISAPPEAR_MS: 8000,
 
-    //text which will be pretended to title bar when browser tab gets unactive
+    //text which will be prepended to title bar when browser tab gets unactive
     //string or false
     PREPEND_TITLE: '[Notifying]: '
   };
