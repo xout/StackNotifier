@@ -116,10 +116,10 @@
   const onVisibilityChange = () => {
     if(isPageHidden()){
       if(!titleStartsWithTag())
-        document.title = CONFIG.PREPEND_TITLE+document.title;
+        document.title = tag+document.title;
     }
     else if(titleStartsWithTag())
-      document.title = document.title.replace(CONFIG.PREPEND_TITLE, '');
+      document.title = document.title.replace(tag, '');
   };
 
   if(tag){
