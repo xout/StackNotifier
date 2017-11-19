@@ -64,16 +64,13 @@
     const title = question.querySelector('.summary > h3 > a'),
           content = question.querySelector('.summary > .excerpt');
 
-    if(!title || !content)
-      return [];
-
-    return [
+    return (!title || !content) ? [] : [
       title.innerText,
       content.innerText
     ];
   };
 
-  const doSomethingWithQuestion = question => {
+  const extractAndNotify = question => {
     const [ title, content ] = getTitleAndContent(question);
 
     if(!title || !content)
@@ -91,7 +88,7 @@
     if(firstAdded.classList.contains('new-post-activity'))
       firstAdded.click();
     else if(firstAdded.classList.contains('question-summary'))
-      doSomethingWithQuestion(firstAdded);
+      extractAndNotify(firstAdded);
   };
 
   const whenThen = condition => fn => arg =>
