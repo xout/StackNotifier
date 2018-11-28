@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        StackNotifier
-// @namespace   https://github.com/reski78/StackNotifier
+// @namespace   https://github.com/xout/StackNotifier
 // @version     2.0
 // @author      reski78
 // @match       *://stackoverflow.com/questions/tagged/*
